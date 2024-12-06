@@ -43,7 +43,7 @@ print("False or False is: ", False or False)
 print("True and True is: ", True and True)
 print("True and False is: ", True and False)
 print("False and True is: ", False and True)
-print("False and False : ", False and False)
+print("False and False is: ", False and False)
 
 # 'not' operator works on a single boolean operands and inverses it (False ko True & True ko False)
 
