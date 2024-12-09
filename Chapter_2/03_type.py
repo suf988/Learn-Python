@@ -46,3 +46,7 @@ print("Type after conversion: ", type(float_to_int))
 float_to_str = str(float1)
 print("Type before conversion: ", type(float1))
 print("Type after conversion: ", type(float_to_str))
+
+#Errors:
+str2 = "Harry Potter"
+new_str_to_int = str(str2)  #Error because the conversion is not valid
