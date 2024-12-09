@@ -35,3 +35,14 @@ print("Type after conversion: ", type(int_to_float))
 int_to_str = str(int1)
 print("Type before conversion: ", type(int1))
 print("Type after conversion: ", type(int_to_str))
+
+#Float to Integer:
+float1 = 76.49
+float_to_int = int(float1)
+print("Type before conversion: ", type(float1))
+print("Type after conversion: ", type(float_to_int))
+
+#Float to String:
+float_to_str = str(float1)
+print("Type before conversion: ", type(float1))
+print("Type after conversion: ", type(float_to_str))
