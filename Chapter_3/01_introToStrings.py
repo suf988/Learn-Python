@@ -20,3 +20,4 @@ print(string1[0:7]) #slicing a string by "stringName[startingIndex:endingIndex]"
 name = "Hermione Granger"
 
 print(name[-13:-5]) #-13 length se start hui slicing aur -5 se phle wali length tk slicing ki
+print(name[-5:-13]) #this would be wrong because starting index should be less than ending index
