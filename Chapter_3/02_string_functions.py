@@ -35,3 +35,13 @@ print(str2.startswith("st")) #False
 
 str3 = "banana"
 print("Count of 'a' in banana:", str3.count("a"))
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# CAPITALIZE FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.capitalize()
+# capitalize only the first letter of a string
+
+str4 = "michelle ali"
+print(str4.capitalize())
