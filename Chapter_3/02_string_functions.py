@@ -44,4 +44,33 @@ print("Count of 'a' in banana:", str3.count("a"))
 # capitalize only the first letter of a string
 
 str4 = "michelle ali"
-print(str4.capitalize())
+print(str4.capitalize())    #Michelle ali
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# TITLE FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.title()
+# capitalize all the starting letters of a string
+
+print(str4.title()) #Michelle Ali
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# UPPER FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.upper()
+# converts all the string to upper case.
+
+str5 = "this is a lowercase sentence."
+print(str5.upper()) #THIS IS A LOWERCASE SENTENCE.
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# LOWER FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.upper()
+# converts all the string to lower case.
+
+str5 = "THIS IS AN UPPERCASE SENTENCE."
+print(str5.lower()) #this is an uppercase sentence.
