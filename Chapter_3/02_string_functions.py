@@ -74,3 +74,52 @@ print(str5.upper()) #THIS IS A LOWERCASE SENTENCE.
 
 str5 = "THIS IS AN UPPERCASE SENTENCE."
 print(str5.lower()) #this is an uppercase sentence.
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# FIND FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.find("word")
+# returns the index of the first occurance of that word in a string.
+
+str5 = "I don't live in Pakistan now, I live in Italy."
+print(str5.find("live")) #8
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# REPLACE FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.replace("old_word", "new_word")
+# finds the old word in the string and replace it with the new one.
+
+str6 = "I live in Pakistan."
+print(str6.replace("Pakistan", "Italy")) #8
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# STRIP FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.strip()
+# removes the whitespaces from starting and ending of a string.
+
+str7 = "    Hello     "
+print(str7.strip()) #Hello
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# LSTRIP FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.lstrip()
+# removes the whitespaces from starting of a string.
+
+print(str7.strip()) #Hello
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# RSTRIP FUNCTION
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: stringName.rstrip()
+# removes the whitespaces from ending of a string.
+
+str7 = "    Hello     "
+print(str7.rstrip()) #    Hello
