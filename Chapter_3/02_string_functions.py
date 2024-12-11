@@ -90,7 +90,7 @@ print(str5.find("live")) #8
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Syntax: stringName.replace("old_word", "new_word")
-# finds the old word in the string and replace it with the new one.
+# finds the old word in the string and replace ALL ITS OCCURANCES with the new one.
 
 str6 = "I live in Pakistan."
 print(str6.replace("Pakistan", "Italy")) #8
