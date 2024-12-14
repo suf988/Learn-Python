@@ -36,7 +36,7 @@ numbers = [5, 2, 9, 1, 7]
 numbers.sort(reverse=True)
 print(numbers) #[9, 7, 5, 2, 1]
 
-l4 = ["Banana", "apple", "Cherry", "date"]
+l4 = ["Banana", "apple", "Cherry", ]
 l4.sort(key=str.lower, reverse=True)
 print(l4)   #['date', 'Cherry', 'Banana', 'apple']
 
