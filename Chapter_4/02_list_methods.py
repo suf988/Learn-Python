@@ -78,5 +78,25 @@ l6.insert(3,"Draco")
 print(f"List after inserting: {l6}")
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# SORT METHOD 
+# POP METHOD 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: listName.pop(index)
+# remove the value at the specified index of the list and returns it
+
+# l6.pop(3)
+print(f"Value popped at index 3 {l6.pop(3)}")   #initial list length was 6, popped one value from it
+print(l6)   #now the length of list is 5
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# REMOVE METHOD 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: listName.remove(value)
+# will find the given value in list and remove the first occurance from the list.
+# will raise an error if the given value is not present in the list.
+
+print(f"Original Array: {l5}")
+l5.remove(98)   #value is present in the list
+print(f"Original Array: {l5}")
+# l5.remove(33)   #ERROR: value is not present in the list
