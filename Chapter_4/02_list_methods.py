@@ -42,8 +42,16 @@ print(l4)   #['date', 'Cherry', 'Banana', 'apple']
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# SORT METHOD 
+# REVERSE METHOD 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: listName.reverse()
+# will return the list in reverse order (won't sort the list in descending order, will just reverse it).
+
+l2 = [57,11,65,98,1,32]
+print(f"Before reversing the list: {l2}")
+l2.reverse()
+print(f"After reversing the list: {l2}")
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # SORT METHOD 
