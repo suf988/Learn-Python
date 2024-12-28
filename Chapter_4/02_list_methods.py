@@ -54,6 +54,18 @@ l5.reverse()
 print(f"After reversing the list: {l5}")
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# INDEX METHOD 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: listName.index(valueToBeSearched)
+# returns the first occurance of the value searched in the list.
+# will raise an error if does not find any matching value in the list.
+
+print(l5.index(11))
+#print(l5.index(10)) #ERROR: 10 is not in the list
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # APPEND METHOD 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
