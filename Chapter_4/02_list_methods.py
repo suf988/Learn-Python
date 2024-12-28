@@ -48,18 +48,34 @@ print(l4)   #['date', 'Cherry', 'Banana', 'apple']
 # Syntax: listName.reverse()
 # will return the list in reverse order (won't sort the list in descending order, will just reverse it).
 
-l2 = [57,11,65,98,1,32]
-print(f"Before reversing the list: {l2}")
-l2.reverse()
-print(f"After reversing the list: {l2}")
+l5 = [57,11,65,98,1,32]
+print(f"Before reversing the list: {l5}")
+l5.reverse()
+print(f"After reversing the list: {l5}")
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# SORT METHOD 
+# APPEND METHOD 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# Syntax: listName.append(valueToBeAdded)
+# will add the given value at the end of the list.
+
+l6 = ["Harry", "Hermione", "Ron", "Ginny"]
+print(f"List before appending: {l6}")
+l6.append("Luna")
+print(f"List before appending: {l6}")
+
+
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# SORT METHOD 
+# INSERT METHOD 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Syntax: listName.insert(index, value)
+# will add the given value at the specified index of the list.
+
+print(f"Original List: {l6}")
+l6.insert(3,"Draco")
+print(f"List after inserting: {l6}")
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # SORT METHOD 
