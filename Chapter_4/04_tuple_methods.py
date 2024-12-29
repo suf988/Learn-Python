@@ -65,5 +65,5 @@ print(f"\"a\" = {a}\n\"b\" = {b}\n\"c\" = {c}\n\"d\" = {d}")
 # syntax: tupleName[startIndex : endIndex]
 # will slice the tuple and return a new tuple with the sliced value.
 
-print(f"Original {tup3}")
+print(f"Original Tuple: {tup3}")
 print(f"Sliced Tuple: {tup3[1:len(tup3)]}")
