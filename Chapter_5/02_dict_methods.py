@@ -77,3 +77,13 @@ print(dictionary)
 
 print(dictionary.popitem())
 print(dictionary)
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  CLEAR METHOD 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# syntax: dictionary_name.clear()
+# will clear the whole dictionary
+
+dictionary.clear()
+print(dictionary)
