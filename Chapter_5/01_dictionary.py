@@ -6,6 +6,7 @@
 # just like objects in javascript, but the keys are written like json, with ""
 
 # it is mutable, unordered, and there can't be any duplicate keys
+# we can use "Strings" and "Integers" as keys
 
 marks = {
     "Harry": 87,
