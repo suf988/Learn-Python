@@ -52,4 +52,7 @@ print(dictionary)
 # will return the value of specified key.
 
 print(dictionary.get("Name"))
-print(dictionary["Game"])   #another common way.
+
+
+print(dictionary.get("Country"))   #this method will return "none" if the value is not found.
+print(dictionary["Country"])       #this method will return a key error if the value is not found.
