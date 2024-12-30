@@ -55,4 +55,25 @@ print(dictionary.get("Name"))
 
 
 print(dictionary.get("Country"))   #this method will return "none" if the value is not found.
-print(dictionary["Country"])       #this method will return a key error if the value is not found.
+#print(dictionary["Country"])       #this method will return a key error if the value is not found.
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  POP METHOD 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# syntax: dictionary_name.pop("key")
+# will remove the specified key form dictionary and returns the corresponding value of that key.
+# if the key is not found then will raise an error, otherwise will return the default value if given.
+
+print(dictionary.pop("Game"))
+print(dictionary)
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  POP ITEMS METHOD 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# syntax: dictionary_name.popitem()
+# will remove the last key-value pair from the key and return it
+
+print(dictionary.popitem())
+print(dictionary)
