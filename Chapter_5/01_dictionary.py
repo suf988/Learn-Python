@@ -5,6 +5,8 @@
 # a collection of key-value pair in python.
 # just like objects in javascript, but the keys are written like json, with ""
 
+# it is mutable, unordered, and there can't be any duplicate keys
+
 marks = {
     "Harry": 87,
     "Hermione": 95,
@@ -17,4 +19,7 @@ marks = {
 print(marks)
 print(type(marks))  #dict
 
-# it is mutable, unordered, and there can't be any duplicate keys
+# for getting single value out of the dictionary:
+
+print(marks["Harry"])   #most common
+print(marks.get("Hermione"))    #another way, but not that straightforward
