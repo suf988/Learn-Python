@@ -1,0 +1,20 @@
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  DICTIONARY 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# a collection of key-value pair in python.
+# just like objects in javascript, but the keys are written like json, with ""
+
+marks = {
+    "Harry": 87,
+    "Hermione": 95,
+    "Ron": 76,
+    "Draco": 81,
+    "Movie Parts": [1,2,3,4,5,6,7,8],
+    "Movie Name": "Harry Potter"
+}
+
+print(marks)
+print(type(marks))  #dict
+
+# it is mutable, unordered, and there can't be any duplicate keys
