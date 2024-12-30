@@ -43,3 +43,13 @@ print(dictionary.values())
 dictionary.update({"Name": "Bobby"})       #"Name" key exists, so it will be updated
 dictionary.update({"Game": "Quiddich"})    #"Game" key doesn't exist, so new key-value pair will be added.
 print(dictionary)
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  GET METHOD 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# syntax: dictionary_name.get("key")
+# will return the value of specified key.
+
+print(dictionary.get("Name"))
+print(dictionary["Game"])   #another common way.
