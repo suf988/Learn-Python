@@ -24,3 +24,7 @@ print(type(marks))  #dict
 
 print(marks["Harry"])   #most common
 print(marks.get("Hermione"))    #another way, but not that straightforward
+
+
+# length of dictionary:
+print(len(marks))
