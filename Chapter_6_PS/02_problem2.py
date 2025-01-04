@@ -16,10 +16,10 @@ if(math<33):
 
 total_percentage = ((chem + phy + math) / 300) * 100
 
-if(chem>=33 and phy>=33 and math>=33 and total_percentage>=40):
-    print(f"{stud_name} is passed.")
-elif(chem>=33 and phy>=33 and math>=33 and total_percentage<40):
-    print(f"{stud_name} is failed as he failed to get atleast 40% overall.")
+if(total_percentage >= 40 and len(failed_subs) == 0):
+    print(f"Congratulations {stud_name}! You've passed the exam")
+elif(total_percentage <40):
+    print(f"You've failed {stud_name},as total percentage is below 40%")
 else:
-    failed_str = ", ".join(failed_subs)
-    print(f"{stud_name} is failed as he failed to gain atleast 40% in following subjects: {failed_str}")
+    failed_subs_str = ",".join(failed_subs)
+    print(f"You've failed {stud_name}, because you have less than 30% in following subjects:\n{failed_subs_str}")
