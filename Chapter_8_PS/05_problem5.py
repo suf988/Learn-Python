@@ -7,12 +7,21 @@
 *
 
 '''
+# USING FOR LOOP:
 
 def pattern(n):
     for i in range(n,0,-1):
         print("*" * i)
         
+# USING RECURSION:
+def pattern_rec(n):
+    if n==0:
+        return
+    print("*"*n)
+    pattern_rec(n-1)
 
 n = int(input("Enter a number: "))
+print("\nUSING FOR LOOP:\n")
 pattern(n)
-# print(printed_pattern)
+print("\nUSING RECURSION:\n")
+pattern_rec(n)
