@@ -34,6 +34,8 @@ else:
             print("\nYou Lose!")
 
 # Below is the logic of if-else condition (subtracted value of computer by value of you)
+# computer - you
+
 '''
 win = -1 - 0    -1
 win = 0 - 1     -1
