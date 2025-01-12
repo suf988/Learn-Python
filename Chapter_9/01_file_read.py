@@ -43,3 +43,14 @@ data = f.readline() # will read only a single line from the file
 print(data) #twinkle twinkle little star
 
 f.close()
+
+# -------------------------------------------------------------
+
+f = open("file.txt")
+
+line = f.readline()
+while(line != ""):
+    print(line)
+    line = f.readline()
+
+f.close()
