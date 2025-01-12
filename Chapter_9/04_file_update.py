@@ -8,7 +8,12 @@
 # can not add new content at the end, because it will be appending then.
 
 f = open("written_file.txt", "r+")
-
+content = f.read()
+print(f"Original content: {content}")
 f.write("This line is written using update mode (r+) ")
 
 f.close()
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  UPDATE FILE (w+)
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
