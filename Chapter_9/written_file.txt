@@ -1,2 +1,4 @@
 This is a text file written by using f.write() function
 This line is appended in the this txt file using the append mode
+This line is appended in the this txt file using the append mode
+This line is appended in the this txt file using the append mode
