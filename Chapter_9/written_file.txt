@@ -1,4 +1,1 @@
-This is a text file written by using f.write() function
-This line is appended in the this txt file using the append mode
-This line is appended in the this txt file using the append mode
-This line is appended in the this txt file using the append mode
+The file is updated with the new content and all the previous existing content is deleted because we have used update method (w+).
