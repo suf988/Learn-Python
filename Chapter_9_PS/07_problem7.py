@@ -18,7 +18,6 @@ with open("log_file.html") as f:
             data = f.readline()
         else:
             print("Keyword 'python' is not present.")
-            
 
 
 # =================================================================
