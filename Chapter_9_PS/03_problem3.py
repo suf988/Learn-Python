@@ -2,7 +2,7 @@
 
 def multiply():
     for i in range(2,21):
-        with open(f"table of {i}", 'w') as f:
+        with open(f"tables/table of {i}", 'w') as f:
 
             f.write(f"Table of {i}\n")
             for j in range(1,11):
