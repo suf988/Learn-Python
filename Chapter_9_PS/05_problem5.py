@@ -2,12 +2,14 @@
 
 censor_words = ["crap", "sucks", "annoying", "stupid", "cheap content"]
 
-with open("censored_text.txt", "r") as f:
+with open("censored_text.txt") as f:
     data = f.read()
-    if censor_words in data:
-        updated_data = data.replace(censor_words, "#####")
+    
+for i in censor_words:
+    if i in data:
+        data = data.replace(i, "#####")
 
 with open("censored_text.txt", "w") as f:
-    f.write(updated_data)
+    f.write(data)
 
 
