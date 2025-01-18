@@ -30,7 +30,8 @@ with open("log_file.html") as f:
     for i in data:
         if 'python' in i:
             print(f"Keyword 'python' is present in line no. {line}")
-        else:
-            print("Keyword 'python' is not present.")
+            break
         line += 1
+    else:
+        print("Keyword 'python' is not present.")
     
