@@ -22,7 +22,7 @@ class Employee:         # classes are defined using Pascal case
 
 harry = Employee()  # object initiation (without initiation, the class is just a template and no memory is assigned)
 harry.name = "Harry"
-print(f"Name: {harry.name}")    # this is an object attribute
+print(f"Name: {harry.name}")    # this is an instance attribute
 print(f"Language: {harry.language}")
 print(f"Salary: {harry.salary}")
 
@@ -34,7 +34,9 @@ print(f"Salary: {hermione.salary}")
 
 # in the above 2 objects:
 '''
-"name" is object attribute because it directly belongs to the object and is different for every object.
+"name" is instance attribute because it directly belongs to the object and is different for every object.
 
 "language" and "salary" are class attributes because they directly belong to class and can be same for every object.
+
+e.g: "name" can be different for each user but there can be a class of same "language" and "salary"
 '''
