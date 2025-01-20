@@ -4,24 +4,26 @@ from random import randint
 
 class Train:
     company = "TrenItalia"
-    seats = 70
 
-    def __init__(self, train):
-        self.train = train
-        
-    def getStatus(self):
-        print(f"\nTrain no. {self.train} of {self.company} running on-time\nNo. of Seats: {self.seats}\nFare: €{randint(15,45)}")
+    def __init__(self, trr):
+        self.trr = trr
     
-    def bookTicket(self, name, dep, arr):
-        print(f"\nTICKET CONFIRMED")
-        print(F"Your Name: {name}\nJourney: {dep} to {arr}\nTrain no. IT{self.train}")
+    def get_status(self, dep, arr):
+        print(f"\nTrain no. {self.trr}, from '{dep}' to '{arr}' is running on time.")
 
-trr = int(input("Enter Train no: "))
-name = input("Enter Your name: ")
-dep = input("Departure from: ")
-arr = input("Arrival to: ")
+    def book_ticket(self, name, dep, arr):
+        print(f"\nTICKET CONFIRMED!!")
+        print(f"Train no. {self.trr}, {self.company}\nYour name: {name}\nDeparture: {dep}\nArrival: {arr}")
+    
+    def get_fare(self, dep, arr):
+        print(f"\nTrain fare from '{dep}' to '{arr}' is: €{randint(16,45)}")
 
-user1 = Train(trr)
-user1.getStatus()
-user1.bookTicket(name, dep, arr)
+trainNo = int(input("Enter Train no. "))
+name = input("Enter your name: ")
+dep = input("Enter Departure: ")
+arr = input("Enter Arrival: ")
 
+a = Train(trainNo)
+a.get_fare(dep, arr)
+a.get_status(dep, arr)
+a.book_ticket(name, dep, arr)
