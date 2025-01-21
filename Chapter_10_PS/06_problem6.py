@@ -1,5 +1,8 @@
 # Q6: Can you change the self-parameter inside a class to something else (say “harry”). Try changing self to “slf” or “harry” and see the effects.
 
+# Yes, we can change the self-parameter inside a class to something else. Because it is just a parameter afterall.
+# But, if the parameter is changed to something else instead to 'self', that word should replace 'self' everywhere.
+
 class Employee:
     category = "Programmers"
     language = "Python"
