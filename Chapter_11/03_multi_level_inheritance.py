@@ -28,3 +28,7 @@ class Dog(Mammal):
 dog = Dog("Buddy")
 
 dog.sound()
+
+# When you call dog.sound(), Python first looks for the sound method in the Dog class. Since it finds it there, it executes that version of the method.
+
+# If the Dog class didn’t define a sound method, it would fall back to the Mammal class, and then to the Animal class if necessary.
