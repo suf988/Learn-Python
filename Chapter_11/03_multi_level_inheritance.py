@@ -21,7 +21,6 @@ class Mammal(Animal):
         print(f"{self.name} is a {self.adjective} mammal and makes a specific sound.")
 
 class Dog(Mammal):
-    pass
     def sound(self):
         print(f"{self.adjective} {self.name} barks.")
 
