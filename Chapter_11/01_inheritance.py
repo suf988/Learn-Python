@@ -16,7 +16,8 @@ class Employee:
         print(f"The employee name is {self.name} and he works in {self.company}")
 
 class Programmer(Employee):  # "Programmer" class inherited the "Employee" class with all its methods and attributes
-    company = "Apple"
+    
+    company = "Apple"   # company attribute is overwritten   
     language = "Python"
 
     def getInfo(self):
