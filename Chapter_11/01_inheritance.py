@@ -26,4 +26,4 @@ a = Employee("Harry")
 b = Programmer("Hermione")
 
 a.getData()
-b.getInfo()
+b.getInfo() # this method will inherit the "name" attribute from its parent class "Employee"
