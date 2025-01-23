@@ -15,7 +15,7 @@ class Employee:
     def getData(self):
         print(f"The employee name is {self.name} and he works in {self.company}")
 
-class Programmer(Employee):
+class Programmer(Employee):  # "Programmer" class inherited the "Employee" class with all its methods and attributes
     company = "Apple"
     language = "Python"
 
