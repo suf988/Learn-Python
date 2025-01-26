@@ -18,3 +18,14 @@ value.getValue()    #The value of 'a' is 100  //because we modified the class at
 
 # ===================================================================
 
+class Parent2:
+    a = 50
+
+    @classmethod
+    def getNewValue(cls):
+        print(f"Value of 'a' is {cls.a}")
+
+newValue = Parent2()
+newValue.a = 100    # tried changing the class attribute with instance attribute.
+
+newValue.getNewValue()  #Value of 'a' is 50  //because the method will only access class attribute due to @classmethod 
