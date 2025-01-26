@@ -29,3 +29,23 @@ newValue = Parent2()
 newValue.a = 100    # tried changing the class attribute with instance attribute.
 
 newValue.getNewValue()  #Value of 'a' is 50  //because the method will only access class attribute due to @classmethod 
+
+# ===================================================================
+
+# another example:
+
+class Employee:
+    company = "Google"
+
+    def show_company(self):
+        print(f"Name of company: {self.company}")
+    
+    @classmethod
+    def change_company(cls,new_company):    # changing the company class attribute using class method
+        cls.company = new_company
+
+employee = Employee()
+employee.show_company() # Name of company: Google
+
+employee.change_company("Microsoft")    # changed the company name
+employee.show_company() # Name of company: Microsoft
