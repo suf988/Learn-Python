@@ -12,6 +12,9 @@ class Parent:
         print(f"The value of 'a' is: {self.a}")
 
 value = Parent()
-value.a = 100
+value.a = 100   # this will overwrite the class attribue and value of 'a' will be 100 instead of 50.
 
-value.getValue()
+value.getValue()    #The value of 'a' is 100  //because we modified the class attribue 'a' with instance attribute
+
+# ===================================================================
+
