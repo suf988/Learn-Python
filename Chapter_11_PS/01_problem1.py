@@ -6,7 +6,7 @@ class Two_D_Vector:
         self.j = j
     
     def show(self):
-        print(f"The 2D vector has values: {self.i} and {self.j}")
+        print(f"The 2D vector has values: {self.i}i and {self.j}j")
 
 class Three_D_Vector(Two_D_Vector):
     def __init__(self, i, j, k):
@@ -14,7 +14,7 @@ class Three_D_Vector(Two_D_Vector):
         self.k = k
     
     def show(self):
-        print(f"The 3D vector has values: {self.i}, {self.j} and {self.k}")
+        print(f"The 3D vector has values: {self.i}i, {self.j}j and {self.k}k")
 
 a = Two_D_Vector(3,7)
 a.show()
