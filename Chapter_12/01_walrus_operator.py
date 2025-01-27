@@ -22,3 +22,10 @@ if (i:= len([2, 4, 6, 8, 0])) > 3:
     print(f"List is too long, {i} elements. Expected <= 3")
 
 #i is assigned the value of len([1, 2, 3, 4, 5]) and then used in the comparison within the if statement.
+
+# ====================================================================
+
+# another example:
+
+while (data:= input("Enter something: ")) != "quit":
+    print(f"Your data: {data}")
