@@ -27,5 +27,5 @@ if (i:= len([2, 4, 6, 8, 10])) > 4:
 
 # another example:
 
-while (data:= input('Enter something: ')) != 'quit':
+while (data:= input('Enter something: ').lower()) != 'quit':
     print(f"Your data: {data}")
