@@ -18,7 +18,8 @@ if len(n) > 3:
 
 # the above mentioned code can be written using walrus operator as:
 
-
+if (i:= len([2, 4, 6, 8, 10])) > 4:
+    print(f"The length is {i}, which is too long. Should be atleast 3")
 
 #i is assigned the value of len([1, 2, 3, 4, 5]) and then used in the comparison within the if statement.
 
@@ -26,5 +27,3 @@ if len(n) > 3:
 
 # another example:
 
-while (data:= input("Enter something: ")) != "quit":
-    print(f"Your data: {data}")
