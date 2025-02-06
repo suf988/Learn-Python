@@ -35,9 +35,9 @@ try:
     num2 = int(input("Enter second number: "))
 
     if num2 == 0:
-        raise ZeroDivisionError("Divisor can't be zero!")
+        raise ZeroDivisionError("Divisor can't be zero!")   # manually raising an error
     else:
         print(f"{num1}/{num2} = {num1/num2:.2f}")
         
-except ZeroDivisionError as e:
-    print(f"Error! {e}")
+except ZeroDivisionError as e:  # catching the manually raised error
+    print(f"Error! {e}")        # displaying the error message
