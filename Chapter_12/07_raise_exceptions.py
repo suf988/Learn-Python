@@ -12,7 +12,7 @@ def age_check(age):
         return "Access granted"
 
 print(age_check(20))    # Access granted
-# print(age_check(17))    # ValueError: Age must be older than 18
+print(age_check(17))    # ValueError: Age must be older than 18
 
 # =========================================================
 
@@ -25,3 +25,19 @@ if b == 0:
     raise ZeroDivisionError("Divisor can't be zero")
 else:
     print(f"{a}/{b} = {a/b:.2f}")
+
+
+# the error raised in the above mentioned code can be handled more gracefully using try-except.
+
+try:
+
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    if num2 == 0:
+        raise ZeroDivisionError("Divisor can't be zero!")
+    else:
+        print(f"{num1}/{num2} = {num1/num2:.2f}")
+        
+except ZeroDivisionError as e:
+    print(f"Error! {e}")
