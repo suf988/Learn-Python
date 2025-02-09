@@ -29,3 +29,20 @@ print(f"Squared list: {squared_list}")
 squared_list2 = [i**2 for i in list]
 print(f"Squared list 2: {squared_list2}")
 
+# =======================================================
+
+# another example   (filtering even numbers):
+
+numbers = [1, 4, 45, 2, 76, 89, 66, 74, 80]
+
+even_numbers = [i for i in numbers if i % 2 == 0]
+print(f"Even numbers: {even_numbers}")
+
+# =======================================================
+
+# another example   (converting words to upper case):
+
+words = ["hello", "world", "python", "harry potter"]
+
+uppercase = [i.upper() for i in words]
+print(f"Upper case words: {uppercase}")
