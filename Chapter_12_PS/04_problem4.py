@@ -4,9 +4,6 @@ try:
     a = int(input("Enter a dividend: "))
     b = int(input("Enter a divisor: "))
 
-    if b == 0:
-        raise ZeroDivisionError("INFINITE!")
-    else:
-        print(f"Division of {a}/{b} is: {a/b:.2f}")
-except ZeroDivisionError as e:
-    print(e)
+    print(f"Division of {a}/{b} is: {a/b:.2f}")
+except ZeroDivisionError:
+    print("INFINITE!")
