@@ -17,3 +17,10 @@ print(f"Sum of two numbers using Simple function: {sum(5,17)}")
 multiply = lambda a,b: a*b
 
 print(f"Product of two numbers using Lambda function: {multiply(5,17)}")
+
+
+# another example:
+
+square = lambda x: x**2
+inp = int(input("Enter a number to get square of it: "))
+print(f"Square of {inp} is: {square(inp)}")
