@@ -2,6 +2,10 @@
 
 # “The name of the student is Harry, his marks are 72 and phone number is 99999888”
 
+name = input("Enter name: ")
+marks = input("Enter marks: ")
+number = input("Enter phone number: ")
+
 string = "The name of the student is {}, his marks are {} and phone number is {}"
 
-print(string.format("Harry","72", "99999888"))
+print(string.format(name, marks, number))
